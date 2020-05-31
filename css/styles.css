@@ -9,10 +9,7 @@ h1, h2, h3, h4{
 
 .jumbotron {
     margin: 0;
-    background-image: url("images/coffee-shop-header.jpg");
-    background-size: cover;
     padding: 0;
-    background-color: teal;
 }
 
 .navbar {
