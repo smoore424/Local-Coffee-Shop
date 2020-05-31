@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,14 @@
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <!--change first line once font is decided upon-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap"  />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans&display=swap" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    
+
     <title>About - Local Coffee Shop</title>
 </head>
+
 <body>
 
 
@@ -25,23 +27,49 @@
                 <span class="navbar-toggler-icon"> </span>
             </button>
             <div class="collapse navbar-collapse" id="coffeeNavBar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item"> <a class="nav-link" href="index.html"> Home</a>
                     </li>
-                    <li class="nav-item"> 
+                    <li class="nav-item">
                         <a class="nav-link active" href="#"> About </a>
                     </li>
-                    <li class="nav-item"> 
-                        <a class="nav-link" href="#menu.html"> Menu </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html"> Menu </a>
                     </li>
-                    <li class="nav-item"> 
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.html"> Contact </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1>About</h1>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col col-md-6 text-center">
+                <img class="body-img img-thumbnail" src="images/owner.jpg" alt="the owner" width="300px" />
+
+            </div>
+            <div class="col-12 col-md-6 align-self-center">
+                <h2>Meet the Owner</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Leo a diam sollicitudin tempor. Ipsum suspendisse ultrices gravida dictum
+                    fusce. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col-12">
+                <div class="card bg-light mt-3">
+                    <blockquote class="blockquote card-body">
+                        <p class="mb-0">“We make a living by what we get, but we make a life by what we give.”</p>
+                        <footer class="blockquote-footer">Winston Churchill
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -57,11 +85,11 @@
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"> <i
-                        class="fa fa-instagram"> </i> </a>
-                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"> <i class="fa fa-facebook">
-                    </i> </a>
-                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"> <i class="fa fa-twitter">
-                    </i> </a>
+                            class="fa fa-instagram"> </i> </a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"> <i class="fa fa-facebook">
+                        </i> </a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"> <i class="fa fa-twitter">
+                        </i> </a>
                 </div>
                 <div class="col-10 col-sm-4 text-right text-sm-center">
                     <h6>Local Coffee Shop</h6>
@@ -76,10 +104,11 @@
         </div>
     </footer>
 
-        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

@@ -16,11 +16,11 @@ h1, h2, h3, h4{
 }
 
 .navbar {
-    background-color: rgb(54, 38, 17);
+    background-color: #5D4035;
 }
 
 .site-footer {
-    background-color:  rgb(54, 38, 17);
+    background-color:  #5D4035;
     color: white;
     padding: 20px 0;
 }
@@ -36,3 +36,8 @@ a:hover {
 .row-content {
     padding: 50px 0;
 }
+
+.body-img {
+    margin: 50px;
+}
+
