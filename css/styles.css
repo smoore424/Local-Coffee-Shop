@@ -1,0 +1,31 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+.jumbotron {
+    margin: 0;
+    background-image: url("images/coffee-shop-header.jpg");
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(54, 38, 17);
+}
+
+.site-footer {
+    background-color:  rgb(54, 38, 17);
+    color: white;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover {
+    color: white;
+}
