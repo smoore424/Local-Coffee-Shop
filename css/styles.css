@@ -2,7 +2,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4{
     font-family: "Fira Sans", sans-serif;
 }
 
@@ -10,7 +10,9 @@ h1, h2, h3 {
 .jumbotron {
     margin: 0;
     background-image: url("images/coffee-shop-header.jpg");
+    background-size: cover;
     padding: 0;
+    background-color: teal;
 }
 
 .navbar {
@@ -20,6 +22,7 @@ h1, h2, h3 {
 .site-footer {
     background-color:  rgb(54, 38, 17);
     color: white;
+    padding: 20px 0;
 }
 
 a {
@@ -28,4 +31,8 @@ a {
 
 a:hover {
     color: white;
+}
+
+.row-content {
+    padding: 50px 0;
 }
